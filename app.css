@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul{
+  list-style-type:none;
+  margin:0px 0px;
+  padding:0px 0px;
+}
+body{
+    font-family: Poppins;
+}
+h1{
+  font-size: 48px;
+  font-weight: 600;
+}
+h2{
+  font-size: 42px;
+  font-weight: 600;
+}
+h3,h4{
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.btn-outline
+{
+    text-decoration: none;
+    padding:3px 12px;
+    color:black;
+    border:3px solid black;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.btn-primary
+{
+    text-decoration: none;
+    padding:5px 12px;
+    color:white;
+    background-color:#651FFF ;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+/* banner-start */
+.banner
+{
+    padding:100px 0px;
+    background-color: #EBE5FA;
+}
+
+ /* banner-end */
+ /* banner-2start */
+.cards{
+    box-sizing: border-box;
+    padding:20px;
+    color:white;
+    background-color: #651FFF;
+    border-radius: 10px;
+    text-align: left;
+ }
+ .cards>a{
+   text-decoration: none;
+   color:white;
+ }
+  /* banner-2 end */
+  /* banner-3-start */
+.banner-4{
+  margin:80px 0px;
+}
+.banner-4 h1 span:nth-child(2)>span {
+  color: #651FFF;
+  font-weight: bold;
+}
+.banner-4 h1 span:nth-child(3){
+  color: #651FFF;
+  font-weight: bold;
+}
+
+  /* banner-3-end */
+
+/* banner-4 start */
+
+
+.banner-4-wrapper > div:nth-child(2) > div:nth-child(1) > div  {
+  /* First col's inner div styles */
+  background-color: #FFF7ED;
+  padding:30px;
+}
+
+.banner-4-wrapper > div:nth-child(2) > div:nth-child(2) > div {
+  /* Second col's inner div styles */
+  background-color: #E0F7FA;
+  padding:30px;
+}
+
+.banner-4-wrapper > div:nth-child(2) > div:nth-child(3) > div {
+  /* Third col's inner div styles */
+  background-color: #ECECFE;
+  padding:30px;
+}
+
+
+
+/* banner-4 end */
+.banner-5{
+  margin:80px 0px;
+}
+/* banner-5-satrt*/
+.banner-6{
+  padding:100px 0px;
+  background-image: url(./img/logo3/banner-4/888.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+
+.inbound{
+  display:inline-block;
+  text-decoration: none;
+  color:#651FFF;
+  background-color: #ffff;
+  padding:3px;
+  border-radius: 20%;
+}
+.outbound{
+  display:inline-block;
+  text-decoration: none;
+  color:#22D3EE;
+  background-color: #ffff;
+  padding:3px;
+  border-radius: 20%;
+}
+.banner-6 > div > div > .row > :nth-child(1){
+  background-color: #fff;
+}
+.banner-6 > div > div > .row > :nth-child(2){
+  background-color:#651FFF;
+  color:white;
+  margin:30px 0px;
+  padding:15px 25px;
+}
+.banner-6-wrapper > .my-5.py-5.text-center {
+  color: white;
+}
+.banner-6-wrapper>div>h2>span{
+  color:#651FFF;
+
+} 
+
+.banner-6-wrapper:first-child{
+  margin:50px 0px;
+}
+
+/* banner-5-end*/
+
+
+
+
+
+
+
+/* banner-6 start */
+.banner-7{
+  margin:80px 0px;
+}
+.banner-7-wrapper > div > div > div > div > a {
+  /* Your styles here */
+  color:rgba(103, 179, 182, 0.723);
+  text-decoration: none;
+}
+.cards-2>div{
+    box-shadow: rgb(81, 80, 80);
+}
+
+
+.banner-7-wrapper>.row>:nth-child(1)>h1>span:nth-child(3){
+  color:#651FFF;
+
+}
+/* banner-6 end */
+
+/*baner-8 start */
+.banner-8{
+  margin:80px 0px;
+}
+/* Target the colored individual box */
+.banner-8 > div > div > :nth-child(3) > :first-child > div {
+  padding: 20px;
+  background-color: #651FFF;
+  box-sizing: border-box;
+  border-radius: 10%;
+  color: white;
+}
+
+/* Target the <a> inside that box to style link */
+.banner-8 > div > div > :nth-child(3) > :first-child > div > a {
+  color: white;
+  text-decoration: none;
+}
+.banner-8 > div > div > :nth-child(3) > :last-child > .row{
+  background-color:#ECECFE;
+  padding:15px;
+  box-sizing: border-box;
+  border-radius: 10%;
+  color:#651FFF;
+
+}
+.banner-8 > div > div > :nth-child(3) > :last-child > .row > a {
+  text-decoration: none;
+  color:#651FFF;
+}
+
+
+/* banner-8-end*/
+
+
+@media only screen and (min-width: 768px) {
+  .banner-6 > div > div > .row > :nth-child(2){
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .banner-6 > div > div > .row > :nth-child(2){
+    border-radius:10%;
+  }
+}
